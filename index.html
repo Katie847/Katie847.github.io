@@ -1,22 +1,22 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded GIF Example</title>
+    <title>Moving GIFs</title>
+    <style>
+        #movingGif {
+            position: absolute;
+        }
+    </style>
 </head>
 
 <body>
-
-    <h1>Welcome My Website!</h1>
-
-    <p>Check out this cool GIF:</p>
-    <img src="https://media.giphy.com/media/sahgAIAJDlPigGQJx1/giphy.gif" alt="Embedded GIF">
-    <img src="https://media.giphy.com/media/GPjNIQTlCDgHe/giphy.gif" alt="Embedded GIF">
-
-    <p>This is a simple HTML website with an embedded GIF.</p>
-
+    <img id="movingGif" src="https://media.giphy.com/media/878noe3ICOhoQfTAGu/giphy.gif" alt="Moving GIF">
+    <script src="script.js"></script>
 </body>
 
 </html>
